@@ -1,0 +1,5 @@
+f=open(r'C:\Users\hp\OneDrive\Desktop\pythongithub\pythongithub.txt','r')
+n=int(input())
+data=f.readlines(n)
+print(data)
+f.close()
